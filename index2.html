@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Website Clone</title>
+    <link rel="stylesheet" href="./style2.css" />
+    <link rel="icon" href="./netflix.svg" />
+</head>
+<body>
+  
+
+    <section class="container">
+        <div class="left-side">
+            <img src="./logo.png" alt="" class="sub-img">
+            <ul>
+                <li><img src="./icon.png" alt="">Watch anywhere. Cancel anytime.</li>
+                <li><img src="./icon.png" alt="">Unlimited Movies and Shows</li>
+                <li><img src="./icon.png" alt="">Watch on Smart TV's and Plastation.</li>
+                <li><img src="./icon.png" alt="">Download your shows to watch offline.</li>
+                <li><img src="./icon.png" alt="">Stream unlimited movies & TV shows your phone. </li>
+            </ul>
+        </div>
+        <div class="right-side">
+            <h2><img src="./icon.png" alt="">Our Plans</h2>
+            <form class="plan-form">
+                <label for="monthly">
+                    <input type="radio" name="plans" id="monthly" value="149">
+                    <span>₹149</span><small>/month</small>
+                </label>
+                <label for="months3">
+                    <input type="radio" name="plans" id="months3" value="499">
+                    <span>₹499</span><small>/3months</small>
+                </label>
+                <label for="halfyearly">
+                    <input type="radio" name="plans" id="halfyearly" value="799">
+                    <span>₹799</span><small>/6months</small>
+                </label>
+                <label for="yearly">
+                    <input type="radio" name="plans" id="yearly" value="999">
+                    <span>₹999</span><small>/year</small>
+                </label>
+                    <input type="number" id="details" placeholder="Enter your selected plan amount">
+            </form>
+        </div>
+    </section>
+    <div id="plan-form2">
+            <p>YOUR NAME</p>
+                <input type="text" id="front" placeholder="Enter your Name" > 
+                <p>EMAIL ADDRESS</p> 
+                <input type="email" id="next" placeholder="Enter your email id"> 
+                <button onclick="netflix()" id="btn">Subscribe</button>
+    </div>
+
+    <div id="bill">
+        <p class="para1"></p>
+        <p class="para2"></p>
+        <p class="para3"></p>
+        <p class="para4"></p>
+        <h4 class="para5"></h4>
+        <h2 class="para6"></h2>
+    </div>
+    <script src="./code.js"></script>
+
+</body>
+</html>
